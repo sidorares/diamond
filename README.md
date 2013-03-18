@@ -1,7 +1,7 @@
 diamond
 =======
 
-stdin + arguments composite stream (aka &lt;> or diamond)
+stdin + arguments composite stream
 
 
 # install
@@ -46,9 +46,9 @@ var diamond = require('diamond');
 program
   .version('0.0.1')
   .option('-c', 'Count chars')
-  .option('-l,', 'Count lines)
+  .option('-l,', 'Count lines')
   .parse(process.argv);
 
-var stream = diamond(program.argv);
+var stream = diamond(program.args);
 // ...
 ```
