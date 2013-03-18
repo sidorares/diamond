@@ -1,0 +1,24 @@
+{
+  "name": "diamond",
+  "version": "0.0.1",
+  "description": "stdin + arguments composite stream (aka <> or diamond)",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sidorares/diamond.git"
+  },
+  "keywords": [
+    "cli",
+    "<>",
+    "perl"
+  ],
+  "author": "Andrey Sidorov <sidorares@yandex.ru>",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
