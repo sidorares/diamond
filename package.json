@@ -1,6 +1,6 @@
 {
   "name": "diamond",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "stdin + arguments composite stream (aka <> or diamond)",
   "main": "index.js",
   "directories": {
