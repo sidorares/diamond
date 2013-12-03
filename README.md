@@ -52,3 +52,7 @@ program
 var stream = diamond(program.args);
 // ...
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/sidorares/diamond/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
