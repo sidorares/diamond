@@ -1,6 +1,6 @@
 {
   "name": "diamond-operator",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "stdin + arguments composite stream (aka <> or diamond)",
   "main": "index.js",
   "directories": {
