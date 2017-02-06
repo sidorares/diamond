@@ -6,14 +6,14 @@ stdin + arguments composite stream
 
 # install
 ```
-npm install diamond
+npm install diamond-operator
 ```
 
 # example
 
 pipe stdin and content of files from command line to stdout:
 ```js
-var diamond = require('diamond');
+var diamond = require('diamond-operator');
 
 diamond().pipe(process.stdout);
 ```
@@ -21,7 +21,7 @@ diamond().pipe(process.stdout);
 listen for 'next' event:
 
 ```js
-var diamond = require('diamond');
+var diamond = require('diamond-operator');
 
 var stream = diamond();
 
@@ -41,7 +41,7 @@ by default, `process.argv.slice(2)` is used as list of files. You can pass your 
 
 ```js
 var program = require('commander');
-var diamond = require('diamond');
+var diamond = require('diamond-operator');
 
 program
   .version('0.0.1')
