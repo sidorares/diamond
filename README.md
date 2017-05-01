@@ -1,6 +1,8 @@
 diamond
 =======
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sidorares/diamond.svg)](https://greenkeeper.io/)
+
 stdin + arguments composite stream
 
 
